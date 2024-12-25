@@ -1,0 +1,84 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+.brand{
+    font-size: xx-large;
+    padding-right: 100px;
+    padding-left: 30px;
+    color: white;
+    text-decoration-line: none;
+}
+.brand:hover,.ride:hover,.package:hover,.rentals:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+.ride,.package{
+    padding-right: 30px;
+}
+.rentals{
+    padding-right: 900px;
+}
+.act{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.act1{
+    
+    border-radius: 5px;
+    background-color: #eee;
+    color: black;
+    padding: 7px;
+    opacity: 80%;
+    border-radius: 15px;
+    transition: opacity 0.3s ease-in-out;
+}
+.act1:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+.Choose{
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 0;
+
+}
+.autoimg{
+     width: 130px;
+     margin-right: 10px;
+     
+    
+}
+.autodiv{
+    display: flexbox;
+    background-color: yellow;
+}
+.navbar1{
+    max-width: 500px;
+    margin: auto;
+    margin-left: 20px;
+    display: flexbox;
+}
+.rideoption{
+    border: 3px solid #ddd;
+    border-radius: 13px;
+    padding: 15px;
+    transition: border 0.3s;
+}
+.rideoption:hover{
+    border: 3px solid #000;
+    cursor: pointer;
+}
+.rideinfo {
+    display: flex;
+  }

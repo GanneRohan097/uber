@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+h1{
+    background-color: black;
+    color: white;
+    margin: 0%;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: xxx-large;
+}
+h3{
+    font-size: 30px;
+}
+.log{
+    width: 100%;
+    max-width: 370px;
+    margin: 0 auto;
+    padding: 20px; 
+    padding-left: 250px;
+    
+}
+.input1{
+    padding: 20px;
+    width: 230px;
+    font-size: 15px;
+    background-color: azure;
+    border-radius: 15px;
+}
+.input2{
+    padding: 20px;
+    width: 230px;
+    font-size: 15px;
+    background-color: azure;
+    border-radius: 15px;
+}
+.input1:hover,.input2:hover{
+    background-color: white;
+}
+.input0{
+    text-align: center;
+}
+.input02{
+    text-align: center;
+    padding-top: 10px;
+}
+.logbutton{
+    text-align: center;
+    padding-top: 20px;
+}
+button{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    transition: color 0.5s;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.last{
+    padding-top: 20px;
+    text-align: center;
+}
+.last1{
+    padding-right: 60px;
+    color: blue;
+    cursor: pointer;
+}
+
+.last2{
+    color: blue;
+    cursor: pointer;
+}
+    
